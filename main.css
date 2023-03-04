@@ -1,0 +1,45 @@
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+.column:hover {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    cursor: pointer;
+    transition:2s ease-in-out;
+    animation: blink 3s ease-in-out infinite;
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  .row {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+ 
+  @keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */
